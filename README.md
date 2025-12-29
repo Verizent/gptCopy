@@ -29,9 +29,16 @@ GPTCopy is a browser extension that allows users to copy equations from ChatGPT 
 Alternatively, you can install the extension directly from the Chrome Web Store:
 [GPTCopy on Chrome Web Store](https://chromewebstore.google.com/detail/gptcopy/ibnfnmnloecjgmephfokgmlppccheoed)
 
+## Supported Platforms
+GPTCopy now works on ChatGPT, Poe, and any other websites that render equations using KaTeX. The extensions is no longer restricted to ChatGPT, allowing you to easily copy LaTeX and MathML equations from a variety of platforms.
+
+### Tested Platforms
+- ChatGPT
+- Poe (AI Models like GPT, Claude, etc.)
+
 ## Usage
 
-1. Navigate to the ChatGPT website.
+1. Navigate to the ChatGPT or other genAI websites.
 2. Hover over any KaTeX-rendered equation to see the "Copy" tooltip.
 3. Click on the tooltip to copy the equation in the selected format (MathML or LaTeX).
 4. Paste the copied equation into Word or any other application that supports MathML or LaTeX.
