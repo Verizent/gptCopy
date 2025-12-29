@@ -82,6 +82,7 @@ function setupEquation(equation) {
 
 function initialize() {
     console.log('Initializing KaTeX MathML Copier...');
+    chrome.storage.sync.set({ format: 'latex' });
     
     // Select all KaTeX elements
     const equations = document.querySelectorAll('.katex-html:not([data-katex-processed])');
