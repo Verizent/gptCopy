@@ -14,7 +14,7 @@
     },
     "content_scripts": [
       {
-        "matches": ["*://chatgpt.com/*"],
+        "matches": ["*://*/*"],
         "js": ["content.js"],
         "css": ["styles.css"]
       }
